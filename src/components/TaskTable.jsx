@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function TaskTable({ tasks, deleteTask }) {
   return (
-    <table border="3" width="100%" style={{ borderCollapse: "collapse", border: "3px solid black", overflow: "auto", maxWidth: "100%" }}>
+    <table border="3" width="100%" style={{ borderCollapse: "collapse", border: "3px solid black", overflow: "auto" }}>
       <thead style={{border: "3px solid black"}}>
         <tr>
           <th style={{ border: "34495e", padding: "8px",backgroundColor:"#34495e", color:'white' }}>Title</th>
@@ -30,3 +30,4 @@ export default function TaskTable({ tasks, deleteTask }) {
     </table>
   );
 }
+
